@@ -30,10 +30,21 @@ nav:
       # - First steps:
       #   - Create owner account:  user-guide/owner.md
   - User Guide:
-      - Introduction:  user-guide/index.md
       - First steps:
         - Registration:  user-guide/registration.md
         - First login:  user-guide/first-login.md
+      - Page Orientation:
+        - Home Page:  user-guide/orientation/home_page/home_page.md
+        - Blog: user-guide/orientation/blog/blog.md
+        - Lists: user-guide/orientation/lists/lists.md
+        - Map: user-guide/orientation/map/map.md
+        - Family Tree: user-guide/orientation/family_tree/family_tree.md
+        - History: user-guide/orientation/history/history.md
+        - Bookmarks: user-guide/orientation/bookmarks/bookmarks.md
+        - Tasks: user-guide/orientation/tasks/tasks.md
+        - Export: user-guide/orientation/export/export.md
+        - Reports: user-guide/orientation/reports/Reports.md
+        - Revisions: user-guide/orientation/revisions/revisions.md      
       - Edit data:  
         - Add media files:  user-guide/media.md
         - Tag people in photos:  user-guide/tagging.md
@@ -68,7 +79,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.instant
-    - navigation.expand
+#     - navigation.expand
     - navigation.footer
   palette:
     scheme:  default
