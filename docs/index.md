@@ -52,7 +52,7 @@ Gramps Web is designed to be a companion to [***Gramps Desktop***](https://gramp
 *	[Click here to see the Features of Gramps Web](features/features.md) 
 *	[Click here for Install and Setup Information](install_setup/setup.md)
 *	[Click here for the Web Administrator's Guide](administration/admin.md)
-*	[Click here for the User Guide](user-guide/)
+*	[Click here for the User Guide](user-guide/registration.md)
 *	***Want to try a Demo?***  Click the button below and login using any one of the following four usernames below. Use the same name for the password also.  Special thanks to ***DigitalOcean®*** for hosting the demo!
 
 `owner / editor / contributor / member ` 

@@ -5,3 +5,5 @@ This home person does not have to coincide with the home person in Gramps deskto
 To select a person as home person, start typing in the text field and a drop-down list with matches will appear.
 
 The language and home person settings are stored in the browser's local storage, so they will persist on a given device.
+
+![first_login.png](first_login.png)

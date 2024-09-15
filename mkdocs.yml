@@ -1,7 +1,7 @@
 nav:
   - Introduction:  index.md
   - Features:
-    -                                               features/features.md
+    -   features/features.md
   - Install/Setup:
       - Getting Started:  install_setup/setup.md
       - Try out locally:  install_setup/quickstart.md
@@ -30,9 +30,11 @@ nav:
       # - First steps:
       #   - Create owner account:  user-guide/owner.md
   - User Guide:
+      - user-guide/introduction.md
       - First steps:
-        - Registration:  user-guide/registration.md
         - First login:  user-guide/first-login.md
+        - Registration:  user-guide/registration.md
+      - Gramps Record Types: user-guide/record_types/record-types.md  
       - Page Orientation:
         - Home Page:  user-guide/orientation/home_page/home_page.md
         - Blog: user-guide/orientation/blog/blog.md
@@ -45,11 +47,12 @@ nav:
         - Export: user-guide/orientation/export/export.md
         - Reports: user-guide/orientation/reports/Reports.md
         - Revisions: user-guide/orientation/revisions/revisions.md      
-      - Edit data:  
-        - Add media files:  user-guide/media.md
-        - Tag people in photos:  user-guide/tagging.md
-        - Use the blog:  user-guide/blog.md
-        - Manage tasks:  user-guide/tasks.md
+      - Editing Records:
+        - Persons:  user-guide/editing/persons/persons.md
+      - Add media files:  user-guide/media.md
+      - Tag people in photos:  user-guide/tagging.md
+      - Use the blog:  user-guide/blog.md
+      - Manage tasks:  user-guide/tasks.md
       - Revision history:  user-guide/revisions.md
       - Advanced features:
         - DNA:  user-guide/dna.md

@@ -1,5 +1,3 @@
-
-
 In a single-tree installation, anybody can register a new account at a Gramps Web instance, but it will need to be enabled manually by a site owner before it can be used to log in.
 
 In a multi-tree installation, users additionally require the tree ID to sign up; in practice, this means they can sign up using a registration link shared by the tree owner.
@@ -7,6 +5,11 @@ In a multi-tree installation, users additionally require the tree ID to sign up;
 ## 1. Find registration form
 
 On the login form on the home page of Gramps Web, usually there is a link "Register new account".
+
+![](registration_ui.png)
+
+
+
 
 If this link is missing, it is probably because it is a multi-tree installation of Gramps Web. In that case, contact the tree owner for a registration link.
 
