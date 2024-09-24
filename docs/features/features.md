@@ -6,7 +6,7 @@ hide:
 
 ---
 
-![Image title](screenshots/sync.png){ align=right width="300"}
+![Sync Data with Gramps Desktop!](screenshots/sync.png){ align=right width="300"}
 
 ## Full integration with Gramps Desktop
 
@@ -17,7 +17,7 @@ Using the [Gramps Web Add-on](https://gramps-project.org/wiki/index.php/Addon:Gr
 <div style="clear:both;"></div>
 ---
 
-![Image title](screenshots/list.png){ align=right width="400"}
+![Mark Individual Records as Private](screenshots/private.png){ align=right width="300"}
 
 ## Privacy Levels / User Access
 
@@ -28,7 +28,7 @@ Many folks want to keep some details private and we respect that!  You can mark 
 
 
 
-![Image title](screenshots/mobile.png){ align=left width="400"}
+![Use in any Web Browser, on mobile devices or your Desktop computer.](screenshots/mobile.png){ align=left width="400"}
 
 ##	Web Browser Convenience
 
@@ -40,7 +40,7 @@ Access Gramps Web from any web-enabled Device.  You can upload photos, create or
 
 
 
-![Image title](screenshots/fan.png){ align=right width="400"}
+![Multiple Family Tree Views](screenshots/fan.png){ align=right width="400"}
 
 ## Interactive family tree graphs
 

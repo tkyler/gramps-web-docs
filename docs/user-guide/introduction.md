@@ -3,20 +3,19 @@ hide:
   - toc
 ---
 
-This User Guide contains the following sections:
+---
 
-*	***First Steps***   How to create an account and login.
+<p style="float:right; margin-left: 50px; margin-top: 15px; font-size: .8em">
+  <img src="../nav_columns.png"  width = "400px">
+  <br><i>Click to Enlarge</i>
+</p>
 
-*	***Gramps Record Types***	Descriptions of the Various types of Records you will work with using Gramps Web. Being familiar with these Record types is important to get the most of out Gramps Web.
+Welcome to the Gramps Web User Guide.  This User Guide contains all the information you need to work with Gramps Web and start contributing to your Family Tree Database.  Gramps Web was designed to leverage the power of the internet and help families work on their Family Tree together.
 
-*	***Page Orientation***	This section goes over each type of Page found in Gramps Web and the kinds of information you will find there.
+This User Guide may be navigated via the Page links at left.  On most pages (but not all), there is a Table of Contents (TOC) for that page on the right side. (*see image at right*)
 
-*	***Creating New Records***	This section shows you how to create new Records
+Gramps Web is intended for private use and is not a public website such as *ancestry.com*. We assume that your Gramps Web site is administered by someone you know (***the administrator***), for your family project(s) alone, and subsequently invited you to register and join.
 
-*	***Editing Records***	This section shows you how to edit existing Records.
+The topics at left are ordered in the most logical order for someone new to Gramps Web and we recommend you read over them in order. The final section,  ***How Tos*** contain numerous step by step examples of the most common activities performed in Gramps Web and is a great resource if you do not use Gramps Web frequently and need some directions.
 
-*	***Adding Media Files***	This section show syou how to add Media Files
-
-*	***Adding Blogs/Narratives***	This section shows you how you can add commentary and narratives associated with People, Places or Events, etc.
-
-*	***Misc Features***
+Thank you for your interest in Gramps Web, we hope you enjoy using it!

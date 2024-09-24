@@ -31,32 +31,58 @@ nav:
       #   - Create owner account:  user-guide/owner.md
   - User Guide:
       - user-guide/introduction.md
-      - First steps:
-        - First login:  user-guide/first-login.md
-        - Registration:  user-guide/registration.md
-      - Gramps Record Types: user-guide/record_types/record-types.md  
-      - Page Orientation:
-        - Home Page:  user-guide/orientation/home_page/home_page.md
-        - Blog: user-guide/orientation/blog/blog.md
-        - Lists: user-guide/orientation/lists/lists.md
-        - Map: user-guide/orientation/map/map.md
-        - Family Tree: user-guide/orientation/family_tree/family_tree.md
-        - History: user-guide/orientation/history/history.md
-        - Bookmarks: user-guide/orientation/bookmarks/bookmarks.md
-        - Tasks: user-guide/orientation/tasks/tasks.md
-        - Export: user-guide/orientation/export/export.md
-        - Reports: user-guide/orientation/reports/Reports.md
-        - Revisions: user-guide/orientation/revisions/revisions.md      
-      - Editing Records:
-        - Persons:  user-guide/editing/persons/persons.md
-      - Add media files:  user-guide/media.md
-      - Tag people in photos:  user-guide/tagging.md
-      - Use the blog:  user-guide/blog.md
-      - Manage tasks:  user-guide/tasks.md
-      - Revision history:  user-guide/revisions.md
-      - Advanced features:
-        - DNA:  user-guide/dna.md
-        - GQL filters:  user-guide/gql.md
+      - Gramps DB Concepts: 
+        - Records & Types: user-guide/db_concepts/records/records.md
+        - Record Attributes: user-guide/db_concepts/record_attributes/record_attributes.md
+        - Gramps Record Types: user-guide/db_concepts/record_types/record_types.md      
+        - Record View: user-guide/db_concepts/record_view/record_view.md
+      - Registration/Login:  
+        - Single Family:  user-guide/login_registration/single_tree/single_tree.md
+        - Multiple Families:  user-guide/login_registration/multi_tree/multi_tree.md   
+      - Page Descriptions:
+        - Home Page:  user-guide/page_descriptions/home_page/home_page.md
+        - Blog: user-guide/page_descriptions/blog/blog.md
+        - Lists: user-guide/page_descriptions/lists/lists.md
+        - Map: user-guide/page_descriptions/map/map.md
+        - Family Tree: user-guide/page_descriptions/family_tree/family_tree.md
+        - History: user-guide/page_descriptions/history/history.md
+        - Bookmarks: user-guide/page_descriptions/bookmarks/bookmarks.md
+        - Tasks: user-guide/page_descriptions/tasks/tasks.md
+        - Export: user-guide/page_descriptions/export/export.md
+        - Reports: user-guide/page_descriptions/reports/reports.md
+        - Revisions: user-guide/page_descriptions/revisions/revisions.md 
+      - Family Tree Views:
+        - Introduction: user-guide/family_tree_view/introduction.md
+        - Ancestor Tree: user-guide/family_tree_view/ancestor_tree.md
+        - Descendant Tree: user-guide/family_tree_view/descendant_tree.md
+        - Hourglass Graph: user-guide/family_tree_view/hourglass_graph.md
+        - Relationship Graph:  user-guide/family_tree_view/relationship_graph.md
+        - Fan Chart: user-guide/family_tree_view/family_tree_view.md
+      - Advanced Topics:
+        - Running Reports:  user-guide/advanced_topics/reports.md
+        - Syncing with Gramps:  user-guide/advanced_topics/gramps_syncing.md
+        - DNA Map:  user-guide/advanced_topics/dna.md
+        - GQL filters:  user-guide/advanced_topics/gql.md
+      - How Tos:
+        - Add New Record:  user-guide/how_tos/adding_records/adding_records.md
+        - Add New Person: user-guide/how_tos/add_new_person.md
+        - Add New Family: user-guide/how_tos/add_new_family.md
+        - Adding Photos: user-guide/how_tos/adding_media.md
+        - Adding a Blog: user-guide/how_tos/adding_blog.md
+        - Edit Existing Record: user-guide/how_tos/editing_records/editing_records.md
+        - Managing Media:  user-guide/how_tos/media_topics/media_topics.md
+        - Tag people in photos:  user-guide/how_tos/tagging_photos/tagging_photos.md
+        - Create a Blog Story:  user-guide/how_tos/create_blog.md
+        - Create a Task:  user-guide/how_tos/create_tasks.md                
+        - Edit Person: user-guide/how_tos/edit_existing_person.md
+        - Married Names: user-guide/how_tos/married_names.md
+        - Adoptions: user-guide/how_tos/adoptions.md
+        - Divorces: user-guide/how_tos/divorces.md
+        - Residence Addresses: user-guide/how_tos/residence_addresses.md
+        - Unknown Parents: user-guide/how_tos/unknown_parents.md
+        - Sources/Citations: user-guide/how_tos/sources_citations.md
+        - Internet as a Source: user-guide/how_tos/internet_as_source.md
+        - Searching Records:  user-guide/how_tos/searching/searching.md
   - Developers:
       - Overview:  development/dev.md
       - Backend:
@@ -73,10 +99,11 @@ nav:
   - Get Help:  help/help.md
   
   
-site_name:  Gramps Web
+site_name:  Gramps Web 5.2.2
 site_url:  https://www.grampsweb.org
 edit_uri:  https://github.com/gramps-project/gramps-web-docs/blob/main/docs/
 repo_url:  https://github.com/gramps-project/gramps-web
+
 theme:
   name:  "material"
   features:
@@ -90,16 +117,21 @@ theme:
     accent:  blue
   logo:  logo.svg
   favicon:  favicon.ico
+  
+extra_css: 
+  -   extras/css/gramps_web_custom.css
+
 plugins:
   - search
   - glightbox:
         manual:  false    # optional lightboxing.  Requires HTML in markdown.
+        auto_caption: true
 markdown_extensions:
   - admonition
   - pymdownx.highlight
   - pymdownx.superfences
   - attr_list
-  # - toc:
+#   - toc: 
   #     toc_depth :  "0"
   - pymdownx.emoji:
       emoji_index:  !!python/name:materialx.emoji.twemoji
